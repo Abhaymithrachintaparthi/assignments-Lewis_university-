@@ -8,7 +8,7 @@ while i==0:
         print(f'the mean is {num}  and variance is {0}')
         mean+=num
     else:
-        break
+        exit()
 while i==1:
     i+=1
     num = int(input("enter the number:"))
@@ -18,7 +18,8 @@ while i==1:
         mean=mean1
         var=var1
         print(f'the mean is {mean}  and variance is {var}')
-    else:break
+    else:
+        exit()
 while i>=2:
     num = int(input("enter the number:"))
     if num >= 0:
